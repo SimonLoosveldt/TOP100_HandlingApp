@@ -7,9 +7,12 @@ namespace TOP100_HandlingApp.Data
 {
     public class User
     {
-        public User()
+        public User(int id, string name, string password, string mail)
         {
-
+            Id = id;
+            Name = name;
+            Password = password;
+            Mail = mail;
         }
 
         public int Id { get; set; }
