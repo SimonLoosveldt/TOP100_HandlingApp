@@ -13,7 +13,7 @@ namespace TOP100_HandlingApp.Data
 
         public Task<WeatherForecast[]> GetForecastAsync(DateTime startDate)
         {
-            var rng = new Random();
+            var rng = new Random();            
             return Task.FromResult(Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = startDate.AddDays(index),
