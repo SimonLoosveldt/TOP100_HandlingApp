@@ -18,7 +18,7 @@
 *
  --------------------------------- */
 header {
-    padding-top: 240px;
+    padding-top: 120px;
 }
 
     header .wrapper {
@@ -61,6 +61,12 @@ main {
         padding: 20px 0px 30px 0px;
     }
 
+    main form {
+        display: flex;
+        justify-content: center;
+        clear: both;
+    }
+
     main input {
         padding: 5px;
         width: 275px;
@@ -70,13 +76,19 @@ main {
         font-size: 16px;
         margin: 0 auto;
         margin-bottom: 10px;
-        display: flex;
-        justify-content: center;
     }
 
         main input:hover {
             background-color: #c6c6c6;
         }
+
+    main label {
+        color: white;
+        width: 275px;
+        font-family: 'PT Mono', sans-serif;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
 
 /* ---------------------------------
 *
@@ -116,7 +128,7 @@ footer .wrapper {
     .wrapper #NameMichel a {
         float: right;
         margin-left: 10px;
-        margin-top: 8px;
+        /*margin-top: 8px;*/
     }
 
 .wrapper #NameSimon {
@@ -131,6 +143,6 @@ footer .wrapper {
     .wrapper #NameSimon a {
         float: right;
         margin-left: 10px;
-        margin-top: 8px;
+        /*margin-top: 8px;*/
     }
 
