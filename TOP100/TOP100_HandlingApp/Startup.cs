@@ -30,6 +30,7 @@ namespace TOP100_HandlingApp
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+            services.AddTransient<IDataProvider, DataProvider>();
             services.AddTransient<IUserData, UserData>();
         }
 
