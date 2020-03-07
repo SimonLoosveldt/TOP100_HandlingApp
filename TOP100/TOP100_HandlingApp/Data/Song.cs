@@ -7,6 +7,11 @@ namespace TOP100_HandlingApp.Data
 {
     public class Song
     {
+        public Song()
+        {
+            Artist = string.Empty;
+            Title = string.Empty;
+        }
         public Song(int id, string artist, string title)
         {
             Id = id;
