@@ -5,14 +5,14 @@ using System.Threading.Tasks;
 
 namespace TOP100_HandlingApp.Data
 {
-    public class Song
+    public class DisplaySongModel
     {
-        public Song()
+        public DisplaySongModel()
         {
             Artist = string.Empty;
             Title = string.Empty;
         }
-        public Song(int id, string artist, string title)
+        public DisplaySongModel(int id, string artist, string title)
         {
             Id = id;
             Artist = artist;

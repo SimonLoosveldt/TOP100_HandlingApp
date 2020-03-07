@@ -5,9 +5,15 @@ using System.Threading.Tasks;
 
 namespace TOP100_HandlingApp.Data
 {
-    public class User
+    public class DisplayUserModel
     {
-        public User(int id, string name, string password, string mail)
+        public DisplayUserModel()
+        {
+            Name = string.Empty;
+            Password = string.Empty;
+            Mail = string.Empty;
+        }
+        public DisplayUserModel(int id, string name, string password, string mail)
         {
             Id = id;
             Name = name;
