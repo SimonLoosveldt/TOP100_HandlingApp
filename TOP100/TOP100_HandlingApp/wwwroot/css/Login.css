@@ -1,0 +1,136 @@
+﻿/* ---------------------------------
+*
+*   GENERAL STYLES
+*
+ --------------------------------- */
+* {
+    background: #191919;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* ---------------------------------
+*
+*   STYLES FOR HEADER REGION
+*
+ --------------------------------- */
+header {
+    padding-top: 240px;
+}
+
+    header .wrapper {
+        font-family: 'PT Mono', sans-serif;
+        color: #FFFFFF;
+        font-size: 24px;
+    }
+
+    header h1 {
+        padding-top: 15px;
+        border-bottom: 1px solid #FFFFFF;
+        margin: 10px 0 20px;
+        text-align: center;
+        line-height: 0.1em;
+    }
+
+        header h1 span {
+            background: #191919;
+            padding: 0 10px;
+        }
+
+    header img {
+        float: right;
+        color: black;
+    }
+
+/* ---------------------------------
+*
+*   STYLES FOR MAIN/CONTENT REGION
+*
+ --------------------------------- */
+
+main {
+    font-family: 'Open Sans', sans-serif;
+}
+
+    main h2 {
+        text-align: center;
+        color: #FFFFFF;
+        padding: 20px 0px 30px 0px;
+    }
+
+    main input {
+        padding: 5px;
+        width: 275px;
+        background-color: #DCDCDC;
+        color: #191919;
+        font-family: 'PT Mono', sans-serif;
+        font-size: 16px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+        main input:hover {
+            background-color: #c6c6c6;
+        }
+
+/* ---------------------------------
+*
+*   STYLES FOR FOOTER REGION
+*
+ --------------------------------- */
+
+footer .wrapper {
+    padding-top: 40px;
+    font-family: 'PT Mono', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+    footer .wrapper h2 {
+        text-align: center;
+        border-bottom: 1px solid #FFFFFF;
+        line-height: 0.1em;
+        font-size: 14px;
+    }
+
+        footer .wrapper h2 span {
+            background: #191919;
+            padding: 0 10px;
+        }
+
+.wrapper #NameMichel {
+    float: left;
+    margin-top: 0px;
+}
+
+    .wrapper #NameMichel p {
+        float: left;
+    }
+
+    .wrapper #NameMichel a {
+        float: right;
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+
+.wrapper #NameSimon {
+    float: right;
+    margin-top: 0px;
+}
+
+    .wrapper #NameSimon p {
+        float: left;
+    }
+
+    .wrapper #NameSimon a {
+        float: right;
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+
