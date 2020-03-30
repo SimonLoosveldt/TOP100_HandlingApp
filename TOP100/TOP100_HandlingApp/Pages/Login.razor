@@ -6,6 +6,10 @@
 @inject IUserData db
 <header>
     <div class="wrapper">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700|PT+Mono|Ubuntu:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="../css/Login.css" />
+        <meta charset="UTF-8">
         <h1><span>TOP 100 - Login.</span></h1>
     </div>
 </header>
@@ -14,14 +18,23 @@
     <div class="wrapper">
         <h2>Welkom op de TOP 100 web applicatie.</h2>
         <form>
-            <label for="username">Username: </label><br>
-            <input type="text" id="username" name="username">
-            <label for="password">Password: </label><br>
-            <input type="text" id="password" name="password"><br>
-            <input type="submit" value="Login">
+            <fieldset>
+                <p>
+                    <label for="username">Username: </label><br>
+                    <input type="text" id="username" name="username">
+                </p>
+                <p>
+                    <label for="password">Password: </label><br>
+                    <input type="text" id="password" name="password"><br>   
+                </p>
+                <p>
+                    <input type="submit" value="Login">
+                </p>
+            </fieldset>
         </form>
     </div>
 
+    <!--
     @if(users is null)
     {
         <p>Loading...</p>
@@ -48,6 +61,7 @@
             </tbody>
         </table>
     }
+    -->
 
 </main>
 

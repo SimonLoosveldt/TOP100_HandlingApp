@@ -1,0 +1,101 @@
+﻿/* ---------------------------------
+*
+*   GENERAL STYLES
+*
+ --------------------------------- */
+* {
+    background: #191919;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 65%;
+}
+
+/* ---------------------------------
+*
+*   STYLES FOR HEADER REGION
+*
+ --------------------------------- */
+
+header .wrapper {
+    font-family: 'PT Mono', sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    overflow: hidden;
+}
+
+header h1 {
+    padding-top: 15px;
+    border-bottom: 1px solid #FFFFFF;
+    margin: 10px 0 20px;
+    text-align: center;
+    line-height: 0.1em;
+}
+
+    header h1 span {
+        background: #191919;
+        padding: 0 10px;
+    }
+
+header img {
+    float: right;
+    color: black;
+}
+
+/* ---------------------------------
+*
+*   STYLES FOR FOOTER REGION
+*
+--------------------------------- */
+
+footer .wrapper {
+    padding-top: 40px;
+    font-family: 'PT Mono', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    overflow: hidden;
+    clear: both;
+}
+
+    footer .wrapper h2 {
+        text-align: center;
+        border-bottom: 1px solid #FFFFFF;
+        line-height: 0.1em;
+        font-size: 14px;
+    }
+
+        footer .wrapper h2 span {
+            background: #191919;
+            padding: 0 10px;
+        }
+
+.wrapper #NameMichel {
+    float: left;
+    margin-top: 0px;
+}
+
+    .wrapper #NameMichel p {
+        float: left;
+    }
+
+    .wrapper #NameMichel a {
+        float: right;
+        margin-left: 10px;
+        /*margin-top: 8px;*/
+    }
+
+.wrapper #NameSimon {
+    float: right;
+    margin-top: 0px;
+}
+
+    .wrapper #NameSimon p {
+        float: left;
+    }
+
+    .wrapper #NameSimon a {
+        float: right;
+        margin-left: 10px;
+        /*margin-top: 8px;*/
+    }

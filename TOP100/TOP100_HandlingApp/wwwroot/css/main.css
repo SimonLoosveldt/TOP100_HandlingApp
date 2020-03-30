@@ -1,0 +1,67 @@
+﻿/* ---------------------------------
+*
+*   STYLES FOR HEADER REGION
+*
+ --------------------------------- */
+header {
+    padding-top: 10px;
+    clear: both;
+}
+
+/* ---------------------------------
+*
+*   STYLES FOR MAIN/CONTENT REGION
+*
+ --------------------------------- */
+
+main {
+    font-family: 'Open Sans', sans-serif;
+}
+
+form {
+    width: 100%;
+    /*border: 1px solid red;*/
+}
+
+fieldset {
+    border: none;
+}
+
+    fieldset p {
+        clear: both;
+    }
+
+    fieldset label {
+        color: #FFFFFF;
+        display: inline-block;
+        float: left;
+        clear: left;
+        width: 250px;
+        text-align: left;
+        padding-top: 30px;
+    }
+
+    fieldset input {
+        padding: 5px;
+        width: 375px;
+        background-color: #DCDCDC;
+        color: #191919;
+        font-family: 'PT Mono', sans-serif;
+        font-size: 16px;
+        margin-bottom: 10px;
+        float: left;
+        display: inline-block;
+    }
+
+        fieldset input[type=submit] {
+            clear: both;
+            margin-top: 25px;
+            overflow: hidden;
+        }
+
+            fieldset input[type=submit]:hover {
+                clear: both;
+                margin-top: 25px;
+                overflow: hidden;
+                background-color: #C6C6C6;
+            }
